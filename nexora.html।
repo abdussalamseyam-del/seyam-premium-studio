@@ -1,0 +1,73 @@
+Make my existing NEXORA project production-ready and prepare it for a fully functional live deployment.
+
+IMPORTANT:
+Preserve the existing 10-page design and all working features. Do not rebuild the project unnecessarily.
+
+TECHNOLOGY:
+- React and TypeScript frontend
+- GitHub for source control
+- Vercel for frontend deployment
+- Supabase for authentication and database
+- Secure server-side AI integration
+
+REQUIREMENTS:
+
+1. FRONTEND
+- Ensure all 10 pages work.
+- Fix broken routes and navigation.
+- Make all forms and buttons functional.
+- Verify mobile responsiveness.
+- Fix build and TypeScript errors.
+
+2. SUPABASE BACKEND
+- Configure database tables and relationships.
+- Implement secure authentication.
+- Implement client and administrator roles.
+- Protect private client data using appropriate Row Level Security policies.
+- Connect project requests, inquiries, and admin-managed content to the database.
+- Never expose privileged credentials in frontend code.
+
+3. AI ASSISTANT
+- Connect the chat interface to a real AI provider through a secure server-side function.
+- Store API credentials in server-side secrets.
+- Validate requests and implement appropriate rate limits.
+- Handle missing credentials and API errors honestly.
+- Never expose AI API keys in browser code.
+
+4. ADMIN DASHBOARD
+- Implement secure administrator access.
+- Enable inquiry management and project status updates.
+- Connect supported CRUD operations to the actual database.
+- Restrict administrative actions to authorized users.
+
+5. GITHUB
+- Prepare the repository with a suitable .gitignore and README.
+- Never commit secrets or private environment files.
+- Provide an .env.example containing placeholder variable names only.
+- Do not claim GitHub is connected unless verified.
+
+6. VERCEL DEPLOYMENT
+- Verify that the project builds successfully.
+- Identify required environment variables.
+- Provide exact Vercel configuration instructions.
+- Explain any routing or build configuration needed.
+- Document how to configure production environment variables.
+- Explain how to connect the production domain and HTTPS.
+
+7. SUPABASE PRODUCTION SETUP
+- Document database migrations and security policies.
+- Explain authentication redirect URL configuration.
+- Identify required server-side secrets and backend functions.
+- Ensure public visitors cannot access private records.
+
+8. FINAL TESTING
+- Test all page routes and forms.
+- Verify authentication and authorization.
+- Verify database operations.
+- Test AI integration when credentials are configured.
+- Check mobile layouts and error states.
+- Clearly list anything that still requires manual configuration.
+
+Do not claim the website is live, secure, or fully functional unless the relevant checks have actually been completed.
+
+Start by inspecting the existing project, then implement and verify the necessary changes.
